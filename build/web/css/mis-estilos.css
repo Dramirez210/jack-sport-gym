@@ -1,0 +1,355 @@
+/* 
+    Created on : 17/10/2021, 08:42:45 PM
+    Author     : Dramirez
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**********Barra de navegacion*/
+nav .seccion-nav .logotipo{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+nav .seccion-nav img{
+    height: 100%;
+    vertical-align: text-bottom;
+    border-radius: 15px;
+}
+
+/*******Contenedor 1*/
+.bienvenida{
+    /*width: 100%;*/
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.bienvenida, h1{
+    color: #5d6678;
+    font-weight: 600;
+}
+.bienvenida, h3{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.bienvenida strong{
+    color: #006299; 
+}
+.contenido-contenedor1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido-contenedor1 img{
+    width: 550px;
+    border-radius: 3%;
+}
+.textos-contenedor1{
+    margin: 0 0 0 30px;
+}
+.contenido-contenedor1 p{
+    font-weight: 100;
+    margin-top: 14px;
+    color: #5D6678;
+    padding-right: 60px;
+    text-align: justify;
+    font-size: 17px;
+}
+.contenido-contenedor1 a{
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: #1FDE82;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, 0.46);
+}
+.contenido-contenedor1 a:hover{
+    box-shadow: 0 1px 1px rgba(17,29,48, 0.26);
+}
+
+/****************contenedor 2 Planes*/    
+.jumbotron {
+        background: url(../img/instalaciones2.jpeg) no-repeat center center;
+        -webkit-background-size: 100% 100%;
+        -moz-background-origin: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        margin-bottom:  0px;
+        height: 100%;
+}
+.jumbotron h2{
+    color: #f2f2f2;
+    font-size: 60px;
+}
+.jumbotron strong{
+    color:#111;
+}
+.thumbnail{
+    background-color: #ECECEC;
+}
+.textos-plan{
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 5px 5px 0 0;
+    padding: 0px;
+    text-align: left; 
+}
+.textos-plan h2{
+    margin-top: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.textos-plan h4{
+    font-size: 24px;
+    /*width: 80%;*/
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.textos-plan i{
+    color: #006299;
+    font-size: 30px;
+    padding-right: 10px;
+}
+/***Contenido 3 pandemia, consejos etc*/
+.seccion3{
+    background: rgba(24,100,83,0.8); /*#0e5163*/
+    padding-top: 30px;
+}
+.contenido-contenedor3{
+    display: flex;
+    justify-content: center;
+}
+.cajas{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.caja:hover{
+    box-shadow: 10px 4px 10px rgba(17,29,48, 0.56);
+}
+
+.cajas .caja{
+    width: 45%;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px 35px;
+    margin-bottom: 20px;
+}
+.cajas .caja h4{
+    color: #e5e3D3; /*#C9DBE0*/
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.cajas .caja p{
+    color: #f2f5fc;
+    font-weight: 300;
+    text-align: justify;
+}
+.contenido3-imagen{
+    width: 37%;
+}
+.contenido3-imagen h4{
+    color: #C9DBE0;
+    font-size: 32px;
+    
+}
+.contenido3-imagen img{
+    border-radius: 5px;
+    height: 425px;
+}
+/******************Contenedor 4**/
+.dietas{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.dietas, h1{
+    color: #5d6678;
+    font-weight: 600;
+}
+.contenido-contenedor4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido-contenedor4 img{
+    width: 550px;
+    border-radius: 3%;
+}
+.textos-contenedor4{
+    margin: 0 0 0 30px;
+}
+.contenido-contenedor4 p{
+    font-weight: 100;
+    margin-top: 14px;
+    color: #5D6678;
+    padding-right: 60px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+/*********Footer redes sociales enlaces */
+footer{
+    background: #15161D;
+    padding: 10px 0;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+footer a{
+    display: block;
+    padding: 2px;
+    margin-bottom: 5px; 
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    color: #C9DBE0;
+    font-weight: 100;
+    font-size: 15px;
+}
+.col1-footer img{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    border-radius: 20%;
+}
+footer .thumbnail {
+    background: #15161D;
+    border-color: #15161D;
+}
+footer h3{
+    width: 100%;
+    color: #B2B2B2;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer h5{
+    display: block;
+    color: #B2B2B2;
+    font-weight: 300;
+}
+footer .col2-footer .col3-footer .col4-footer{
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.col2-footer .col3-footer a{
+    text-decoration: none;
+    color: #5d6678;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.redes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.redes i{
+    font-size: 20px;
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    margin-right: 5px;
+}
+.redes i:hover{
+    color: #FFF;
+    background-color: #006299;
+    border-color: #006299;
+}
+.redes .redes-instag i:hover{
+    color: #fff;
+    background-color: #8A3AB9;
+    border-color: #5d6678;
+}
+.redes .redes-yt i:hover{
+    color: #fff;
+    background-color:  #ff0000;
+    border-color: #ff0000; 
+}
+
+/**************Breakpoint*/
+@media screen and (max-width:1000px){
+    .contenido-contenedor1{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 720px;
+    }
+    .contenido-contenedor1 > img {
+        width: 600px;
+        height: 400px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .contenido-contenedor1 > a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .contendio-contenedor2{
+        padding-top: 15px;
+    }
+    .contenido-contenedor3{
+        flex-direction: column;
+    }
+    .contenido-contenedor3 > img{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .cajas{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .cajas .caja h4{
+        font-size: 30px;
+    }
+    .contenido3-imagen{
+        width: 100%;
+        text-align: center;
+    }
+    .contenido-contenedor4{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 720px;
+    }
+    .contenido-contenedor4 > img {
+        width: 600px;
+        height: 400px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    
+}
